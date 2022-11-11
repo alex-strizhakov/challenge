@@ -113,7 +113,7 @@ defmodule Challenge.ServerTest do
 
   defp start_opts(opts) do
     Keyword.merge(
-      [election_start: 50, seniority: 2, max_nodes: 3, timeout: 100, leader: nil, max_pings: 3],
+      [election_start: 50, seniority: 2, max_nodes: 3, timeout: 100, leader: nil],
       opts
     )
   end
